@@ -93,6 +93,8 @@ class PatchLevel:
         Return:
             a list of cropped images with crop_size and contain wanted cells
         """
+        if len(result[0]) == 0:
+            return []
         # get origin image
         image = result[0].orig_img
         # get size of image
@@ -165,6 +167,8 @@ class PatchLevel:
         Return:
             a list of cropped images that good enough
         """
+        if len(result) == 0:
+            return []
         final_result = []
         for image in result:
             _ = self.model.predict(image, conf=conf)
