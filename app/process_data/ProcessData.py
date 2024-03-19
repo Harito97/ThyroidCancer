@@ -1,6 +1,6 @@
 import os
-from PatchLevel import PatchLevel
-from ClusterLevel import ClusterLevel
+from app.process_data.PatchLevel import PatchLevel
+from app.process_data.ClusterLevel import ClusterLevel
 
 
 class ProcessData:
