@@ -105,11 +105,15 @@ class PatchLevel:
         x_centers = xywh[:, 0]
         y_centers = xywh[:, 1]
         # combine x center and y center to a 2D array
-        x_centers = x_centers.cpu().numpy()     # fix to make sure can run on GPU of Google Colab
-        y_centers = y_centers.cpu().numpy()     # fix to make sure can run on GPU of Google Colab
+        x_centers = (
+            x_centers.cpu().numpy()
+        )  # fix to make sure can run on GPU of Google Colab
+        y_centers = (
+            y_centers.cpu().numpy()
+        )  # fix to make sure can run on GPU of Google Colab
         centers = numpy.column_stack((x_centers, y_centers))
         # init KMeans
-        kmeans = KMeans(n_clusters=num_clusters)
+        kmeans = KMeans(n_clusters=min(len(centers), num_clusters))
         # cluster process
         kmeans.fit(centers)
         # get center of clusters
