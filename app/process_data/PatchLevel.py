@@ -113,7 +113,7 @@ class PatchLevel:
         )  # fix to make sure can run on GPU of Google Colab
         centers = numpy.column_stack((x_centers, y_centers))
         # init KMeans
-        kmeans = KMeans(n_clusters=min(len(centers), num_clusters))
+        kmeans = KMeans(n_clusters=min(centers.shape[0], num_clusters))
         # cluster process
         kmeans.fit(centers)
         # get center of clusters
