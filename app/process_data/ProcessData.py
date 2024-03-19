@@ -17,15 +17,21 @@ class ProcessData:
         self.patch_level = PatchLevel()
         self.cluster_level = ClusterLevel()
 
-    def patch_level_crop(self):
-        data_folder = "data/origin_data/B256/"
+    def patch_level_crop(
+        self,
+        data_folder: str = "data/origin_data/B256/",
+        destination: str = "data/processed_data/patch_level/",
+    ):
         for folder in os.listdir(data_folder):
             for image_id in os.listdir(data_folder + folder):
                 cropped_images = self.patch_level.process(
                     img_path=data_folder + folder + "/" + image_id
                 )
                 PatchLevel.save_result(
-                    images=cropped_images, label=folder, img_origin_id=image_id
+                    images=cropped_images,
+                    label=folder,
+                    img_origin_id=image_id,
+                    destination=destination,
                 )
 
     def cluster_level_crop(self): ...
