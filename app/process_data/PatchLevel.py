@@ -36,7 +36,7 @@ class PatchLevel:
             -> should set show_output all False or at least show_output[1] be False
         """
         result = self.step1(img_path=img_path, conf=conf, show_output=show_output[0])
-        threshold = len(result[0]) / 10
+        # threshold = len(result[0]) / 3
         result = self.step2(
             result=result,
             num_clusters=num_clusters,
@@ -45,7 +45,7 @@ class PatchLevel:
         )
         return self.step3(
             result=result,
-            conf=conf / 1.2,
+            conf=conf,
             threshold=threshold,
             show_output=show_output[2],
         )
