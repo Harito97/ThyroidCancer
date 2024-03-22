@@ -24,9 +24,16 @@ class ProcessData:
     ):
         for folder in os.listdir(data_folder):
             for image_id in os.listdir(data_folder + folder):
-                cropped_images = self.patch_level.process(
-                    img_path=data_folder + folder + "/" + image_id
-                )
+                if folder == 'B2':
+                    cropped_images = self.patch_level.process(
+                        img_path=data_folder + folder + "/" + image_id,
+                        conf=0.9, threshold=25
+                    )
+                else:
+                    cropped_images = self.patch_level.process(
+                        img_path=data_folder + folder + "/" + image_id,
+                        conf=0.9, threshold=10
+                    )
                 PatchLevel.save_result(
                     images=cropped_images,
                     label=folder,
