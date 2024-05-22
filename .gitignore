@@ -1,4 +1,5 @@
-data/
-app/process_data/__pycache__/
-app/train_model/train_without_crop/animals_classification_model_checkpoint.weights.h5
-app/train_model/train_without_crop/model_checkpoint.weights.h5
+Data/origin_data/
+OldStructure/data/
+OldStructure/app/process_data/__pycache__/
+OldStructure/app/train_model/train_without_crop/animals_classification_model_checkpoint.weights.h5
+OldStructure/app/train_model/train_without_crop/model_checkpoint.weights.h5
