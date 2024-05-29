@@ -4,3 +4,5 @@ OldStructure/data/
 OldStructure/app/process_data/__pycache__/
 OldStructure/app/train_model/train_without_crop/animals_classification_model_checkpoint.weights.h5
 OldStructure/app/train_model/train_without_crop/model_checkpoint.weights.h5
+TrainModel/DeepLearning/VGG/vgg1_best_slice_datav1.keras
+TrainModel/DeepLearning/VGG/vgg2_best_slice_datav1.keras
