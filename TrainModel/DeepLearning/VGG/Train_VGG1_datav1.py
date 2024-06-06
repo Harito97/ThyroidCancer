@@ -134,7 +134,7 @@ for c in train_generator.class_indices:
 finetuned_model.classes = classes
 early_stopping = EarlyStopping(patience=15)
 checkpointer = ModelCheckpoint(
-    "vgg_best_slice_datav1.keras",
+    "vgg1_best_slice_datav1.keras",
     verbose=1,
     save_best_only=True,
 )
