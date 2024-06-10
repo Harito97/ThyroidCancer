@@ -1,9 +1,4 @@
 Data/
-Data/origin_data/
-OldStructure/data/
-OldStructure/app/process_data/__pycache__/
-OldStructure/app/train_model/train_without_crop/animals_classification_model_checkpoint.weights.h5
-OldStructure/app/train_model/train_without_crop/model_checkpoint.weights.h5
 TrainModel/DeepLearning/VGG/vgg1_best_slice_datav1.keras
 TrainModel/DeepLearning/VGG/vgg2_best_slice_datav1.keras
 TrainModel/DeepLearning/ResNet/Train_result/resnet1_best_slice_datav1.keras
@@ -20,5 +15,4 @@ TrainModel/DeepLearning/VGG/vgg0.1_best_slice_datav1.keras
 TrainModel/DeepLearning/VGG/Train_result/vgg0.1_best_slice_datav1.keras
 TrainModel/DeepLearning/VGG/Train_result/vgg1_best_slice_datav1.keras
 TrainModel/DeepLearning/VGG/Train_result/vgg2_best_slice_datav1.keras
-CAD_App/__pycache__/backend.cpython-312.pyc
-CAD_App/__pycache__/modules_.cpython-312.pyc
+TrainModel/VGG_patchleveldata/resnet1_use_flatten_best_slice_datav1.keras
