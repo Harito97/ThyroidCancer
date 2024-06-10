@@ -1,7 +1,7 @@
 # Application of deep learning to classify thyroid cytology microscopic images according to The Bethesda system (TBS)
 **Subject:**  Scientific Research Methods  
-**Student(s):** Pham Ngoc Hai, QHT.2021 Data Science
-**Supervisor(s)**: ASS Prof., Dr. Le Hong Phuong, Faculty of Mathematics - Mechanics - Informatics, HUS
+**Student:** Pham Ngoc Hai, QHT.2021 Data Science  
+**Supervisor**: ASS Prof., Dr. Le Hong Phuong, Faculty of Mathematics - Mechanics - Informatics, HUS  
 
 ## Abstract
 **Objective:** Classify thyroid cell micrographs according to the Bethesda standard to develop a computer-aided diagnosis (CAD) system for doctors.  
@@ -21,7 +21,9 @@
   <a href="https://www.youtube.com/watch?v=oCqzEb31S3o"><img src="https://img.youtube.com/vi/oCqzEb31S3o/0.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
 
-Click the image above to watch the video on YouTube.
+<div align="center">
+  Click the image above to watch the video on YouTube.
+</div>
 
 ## Details about the report and slides:
 See Report/ThyroidCancerReport.pdf & Report/ThyroidCancerSlide.pdf
