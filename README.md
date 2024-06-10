@@ -17,10 +17,10 @@
 <!-- when video in this repository  -->
 <!-- [![Video Title](https://img.youtube.com/vi/oCqzEb31S3o/0.jpg)](https://www.youtube.com/watch?v=oCqzEb31S3o)  -->
 <!-- when video from the YouTube-->
+
 <div align="center">
   <a href="https://www.youtube.com/watch?v=oCqzEb31S3o"><img src="https://img.youtube.com/vi/oCqzEb31S3o/0.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
-
 <div align="center">
   Click the image above to watch the video on YouTube.
 </div>
@@ -63,7 +63,7 @@ The images were collected using the fine-needle aspiration (FNAB) method, specif
 ### Research Methods
 There are 2 problems:
 - The problem of determining the area of ​​interest in an image uses a deep learning model to identify individual cells combined with a clustering algorithm to cut out image areas with high cell concentration.
-- The problem of classifying biopsy images FNAB uses a deep learning model to automatically extract important features of the image for classification.
+- The problem of classifying the fine-needle aspiration (FNAB) uses a deep learning model to automatically extract important features of the image for classification.
 
 ### Results & Discussion
 #### About the results achieved
@@ -71,7 +71,7 @@ There are 2 problems:
 - With the image classification problem, it can be proven that cutting out important areas of the image instead of using the original image brings 10% higher results when tested with the H1 model, reaching 84% compared to 74%. %. By reducing the complexity of model H1, we obtain model H2. It can be seen that the H2 model gives 3% higher results on the test set, reaching 87% compared to 84%. This may be due to the simplicity of the model, which helps update the weights of the data more effectively.
 
 #### About current goals and future directions
-It can be said that the 3 goals of the research have been achieved, goal 1 supports goal 2 and goals 1 and 2 support goal 3. Selecting important areas in the image combined with classifying Corresponding labels for images are strongly supported by machines (CAD) that help doctors.
+It can be said that the 3 goals of the research have been achieved, goal 1 supports goal 2 and goals 1 and 2 support goal 3. Selecting important areas in the image combined with classifying Corresponding labels for images are strongly supported by machines that help doctors.
 However, even after achieving the three set goals, the current study is still limited in that it has not evaluated the effectiveness of using this research to improve the diagnostic results of doctors - especially are inexperienced and experienced doctors.
 Thus, the future goals of the research will be:
 - Continue to improve the technique of cropping important image areas
