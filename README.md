@@ -13,8 +13,15 @@
 
 
 ## Video Illustration
-<!-- [![Watch the video](https://img.youtube.com/vi/oCqzEb31S3o/maxresdefault.jpg)](https://youtu.be/oCqzEb31S3o) -->
-[![Video Title](https://img.youtube.com/vi/oCqzEb31S3o/0.jpg)](https://www.youtube.com/watch?v=oCqzEb31S3o)
+<!-- [![Watch the video](https://img.youtube.com/vi/oCqzEb31S3o/maxresdefault.jpg)](https://youtu.be/oCqzEb31S3o)-->
+<!-- when video in this repository  -->
+<!-- [![Video Title](https://img.youtube.com/vi/oCqzEb31S3o/0.jpg)](https://www.youtube.com/watch?v=oCqzEb31S3o)  -->
+<!-- when video from the YouTube-->
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=oCqzEb31S3o"><img src="https://img.youtube.com/vi/oCqzEb31S3o/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
+
+Click the image above to watch the video on YouTube.
 
 ## Details about the report and slides:
 See Report/ThyroidCancerReport.pdf & Report/ThyroidCancerSlide.pdf
