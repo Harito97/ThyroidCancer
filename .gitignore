@@ -17,3 +17,4 @@ TrainModel/DeepLearning/VGG/Train_result/vgg1_best_slice_datav1.keras
 TrainModel/DeepLearning/VGG/Train_result/vgg2_best_slice_datav1.keras
 TrainModel/VGG_patchleveldata/resnet1_use_flatten_best_slice_datav1.keras
 Report/ThyroidCancerReport.mp4
+Model/
