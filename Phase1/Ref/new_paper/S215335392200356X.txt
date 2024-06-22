@@ -1,0 +1,8 @@
+Parikshit Sanyal, Tanushri Mukherjee, Sanghita Barui, Avinash Das, Prabaha Gangopadhyay,
+Artificial Intelligence in Cytopathology: A Neural Network to Identify Papillary Carcinoma on Thyroid Fine-Needle Aspiration Cytology Smears,
+Journal of Pathology Informatics,
+Volume 9, Issue 1,
+2018,
+43,
+ISSN 2153-3539,
+https://doi.org/10.4103/jpi.jpi_43_18.

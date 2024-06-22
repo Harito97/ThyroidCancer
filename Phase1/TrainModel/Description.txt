@@ -1,0 +1,13 @@
+Về data:
+    |__Data slice origin: Ảnh gốc
+    |__Data slice v1: ảnh slice origin được phân 3 cụm màu 
+    |           |__Có các thông tin mean, std, pca model & sne model
+    |__Data slice v2: 
+
+
+
+Về model:
+    |__VGG:
+    |   |__VGG1_datav1: dense 1024 dropout 0.5 dense 1024 dropout 0.5 -> khóa những tầng đầu train những dense cuối
+    |   |__VGG2_datav2: từ VGG1_datav1, khóa những dense cuối, train những tầng đầu 10 epoch, rồi sau đó train full mọi layer -> overfit và dừng ở epoch thứ 16 - không cải tiến so với ban đầu
+    

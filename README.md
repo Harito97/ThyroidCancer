@@ -26,7 +26,7 @@
 </div>
 
 ## Details about the report and slides:
-See Report/ThyroidCancerReport.pdf & Report/ThyroidCancerSlide.pdf
+See Phase1/Report/ThyroidCancerReport.pdf & Phase2/Report/ThyroidCancerSlide.pdf
 
 ## Important Highlights:
 
