@@ -20,11 +20,11 @@ Phase1/Report/ThyroidCancerReport.mp4
 Phase1/Model/
 Phase1/temp/
 
-t
+
 
 Phase2/Data/
 Phase2/TrainModel/
-Phase2/train_model/ 
+Phase2/TestModel/
 # the virtual environment for training model
 # python -m venv myenv
 # source myenv/bin/activate  # Trên Windows: myenv\Scripts\activate # myenv == train_model
