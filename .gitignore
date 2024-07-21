@@ -1,3 +1,4 @@
+.Phase1/
 Phase1/Data/
 Phase1/TrainModel/DeepLearning/VGG/vgg1_best_slice_datav1.keras
 Phase1/TrainModel/DeepLearning/VGG/vgg2_best_slice_datav1.keras
@@ -25,6 +26,7 @@ Phase1/temp/
 Phase2/Data/
 Phase2/TrainModel/
 Phase2/TestModel/
+
 # the virtual environment for training model
 # python -m venv myenv
 # source myenv/bin/activate  # Trên Windows: myenv\Scripts\activate # myenv == train_model

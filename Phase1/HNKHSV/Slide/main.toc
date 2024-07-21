@@ -1,5 +1,0 @@
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{Literature Review}{6}{0}{2}
-\beamer@sectionintoc {3}{Research Methods}{8}{0}{3}
-\beamer@sectionintoc {4}{Results and Discussion}{11}{0}{4}
-\beamer@sectionintoc {5}{Conclusion and Future work}{14}{0}{5}
